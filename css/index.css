@@ -63,15 +63,120 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
-}
+     line-height: 1.4;
+ }
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+.header-nav  {
+    display: flex;
+	justify-content: space-around; 
+	width: 100%;
+	margin: 20px 0;
+}
+
+/* .container-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    margin: 20px 0; */
+}
+
+ nav {
+    /* display: flex;
+    justify-content: center;
+    width: 70px;  */
+    display: flex;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 16px; 
+    
+}
+
+
+.header-nav nav a {
+    text-decoration: none;
+	color: black;  
+}
+
+
+.services-header-img {
+    margin-bottom: 10px; 
+
+}
+
+ 
+.about {
+    width: 100%; 
+	margin: 20px 0; 
+	border-bottom: 2px dotted black; 
+    padding-bottom: 20px;  
+    padding-top: 20px; 
+}
+
+
+.info {
+ display: flex;
+ flex-flow: wrap; 
+}
+
+
+.info section {
+    width: 48%; 
+	/* background-color:;  */
+	/* border: 1px solid black; */
+	padding: 20px; 
+    margin: 20px 0; 
+    border-bottom: 2px dotted black; 
+
+}
+
+.info section button {
+    margin-top: 15px; 
+	background: white;
+	border-radius: 8px; 
+	box-shadow: none; 
+	padding: 10px 45px; 
+	font-size: 12px; 
+	border: 2px solid black; 
+}
+
+
+#facts {
+    display: flex;
+	justify-content: space-between;
+	/* width:;  */
+	padding: 40px 0;
+}
+
+
+
+
+/* CSS for index.html */
+
+.header-two {
+    display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	width: 100%;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+/* .top-content {
+    border: 1px solid black; 
+} */
+
+
+/* .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -143,4 +248,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+} */
