@@ -108,9 +108,27 @@ p {
 
 /* Middle of Page */
 
+button {
+    margin-top: 15px; 
+	background: white;
+	border-radius: 8px; 
+	box-shadow: none; 
+	padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+	border: 2px solid black; 
+}
 
+.strategy {
+    display: inline-block;
+    width: 375px;
+    height: 470px;
+    padding: 8px;
+    padding-top: 32px; 
+    margin: 10px; 
+    border-bottom: 1px dashed black; 
 
-
+}
 
 .bottom-content {
     display: flex;
