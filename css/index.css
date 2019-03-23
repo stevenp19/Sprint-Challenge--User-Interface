@@ -91,6 +91,10 @@ p {
     color: black; 
 }
 
+.jumbo {
+    margin-top: 39px; 
+    margin-bottom: 24px; 
+}
 
 .top-content {
     display: flex;
@@ -132,6 +136,120 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*  Box Colors */
+
+.box-one {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: teal; 
+}
+
+.box-two {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold; 
+}
+
+.box-three {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue; 
+}
+
+.box-four {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral; 
+}
+
+.box-five {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson; 
+}
+
+.box-six {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: forestgreen; 
+}
+
+.box-seven {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkorchid; 
+}
+
+.box-eight {
+    width: 12.5%;
+    height: 100px; 
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hotpink; 
+}
+
+.box-nine {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: indigo; 
+}
+
+.box-ten {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue; 
+}
+
 
 .bottom-content {
     display: flex;
