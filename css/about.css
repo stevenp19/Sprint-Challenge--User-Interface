@@ -72,7 +72,7 @@ p {
     width: 800px;
     margin: 0px auto;
     margin-top: 20px; 
-    font-weight: 400; 
+    font-weight: 600; 
 }
 
 /* Header */
@@ -130,11 +130,33 @@ button {
 
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.hone{
+    margin-top: 16px; 
 }
+
+.places {
+    display: inline-block;
+    width: 375px;
+    height: 470px;
+    padding: 8px; 
+    padding-top: 32px; 
+    margin: 10px;  
+    border-bottom: 1px dashed black; 
+}
+
+.collab {
+    margin-top: 16px; 
+}
+
+.bottom-content {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding-bottom: 30px; 
+   padding-top: 44px; 
+}
+
+
 
 footer {
     width: 100%;
